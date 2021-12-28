@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: aqua;
+    height: 350px;
+    
+}
+
+body{
+    background-color: rgb(17, 224, 224);
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    left: 0%;
+    
+    }
+
+.judul{
+    position: relative;
+    top: -50px;
+    text-align: center;
+}
+
+.topnav {
+    background-color:rgba(12, 188, 241);
+    overflow: hidden;
+
+    position: relative;
+  }
+  
+  .topnav a {
+    
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+   
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+   
+    background-color: lightskyblue;
+    color: white;
+  }
+section{
+    width: 100%;
+   
+    height: 1000px;
+}
+
+.kiri{
+    position: relative;
+    width: 20%;
+    height: 35%;
+    background-color: rgb(12, 188, 241);
+    float: left;
+    top: 7%;
+    left: 1%;
+    border: 2px solid rgb(108, 161, 240);   
+    border-radius: 10px; 
+}
+
+.kiri ul dd a{
+    line-height: 60px;
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+    color: grey;
+    text-align: center;  
+}
+.tengah{
+    width: 50%;
+    height: 100%;
+    background-color:  rgb(4, 243, 243);
+    position: relative;
+    left: 25%;
+    top: 6.5%;
+    text-align: center; 
+    border: 2px solid rgb(108, 161, 240);   
+    border-radius: 10px; 
+}
+
+.tengah article{
+    top: 55%;
+    position: relative;
+    text-align: center;
+    right: 15%;
+
+}
+.tengah article h3{
+    color: black;
+}
+.tengah article p{
+    color: black;
+    position: relative;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+    width:500px;
+    margin:10px auto;
+    
+}
+.search {
+    
+    padding:10px 15px;
+    background:rgba(82, 72, 72, 0.2);
+    border:0px solid #4589d6;
+    border: 2px solid rgb(80, 140, 230);  
+  border-radius: 10px;
+}
+.button {
+  
+    position: relative;
+    padding:10px 15px;
+    left:-5px;
+    border:2px solid #53bd84;
+    background-color:#52b896;
+    color:#ebdbdb;
+    border: 2px solid rgb(108, 161, 240);   
+    border-radius: 10px; 
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+.form {
+    width:500px;
+    margin:10px auto;
+    
+}
+.search {
+    
+    padding:10px 15px;
+    background:rgba(82, 72, 72, 0.2);
+    border:0px solid #4589d6;
+    border: 2px solid rgb(80, 140, 230);   
+    border-radius: 10px; 
+}
+.button {
+  
+    position: relative;
+    padding:10px 15px;
+    left:-5px;
+    border:2px solid #53bd84;
+    background-color:#52b896;
+    color:#ebdbdb;
+    border: 1px solid rgb(137, 137, 190);   
+  border-radius: 10px;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#54a2e6;
+    
+}
+.kanan{
+    width: 20%;
+    height: 40%;
+    background-color: rgb(12, 188, 241);
+    float: right;
+    position: relative;
+  bottom: 93.4%;
+  text-align: center;
+  border: 2px solid rgb(108, 161, 240);   
+  border-radius: 10px; 
+}
+
+.kanan menu{
+    text-align: center;
+    direction: ltr;
+}
+
+.kanan ul dd a{
+    line-height: 60px;
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+    color: grey;
+}
+.gambartengah{
+    right: 0%;
+    width: 67%;
+    height: 55%;
+    top: -33%;
+    position: relative;
+}
+
+footer{
+    background-color: rgb(82, 200, 236);
+    position: relative;
+    height: 95px;
+    text-align: center;
+    clear: both;   
+    border: 2px solid rgb(108, 161, 240);   
+    border-radius: 10px; 
+    bottom: 25px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
